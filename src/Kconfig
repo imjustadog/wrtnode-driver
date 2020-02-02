@@ -1,0 +1,5 @@
+config I2C_DOG
+	tristate "A dog's I2C driver"
+	select I2C_RALINK
+	help
+	  This is an I2C driver edited by a dog.
